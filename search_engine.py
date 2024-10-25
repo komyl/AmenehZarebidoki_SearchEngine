@@ -90,7 +90,7 @@ def perform_search():
 
 # GUI setup
 root = tk.Tk()
-root.title("Ameneh Zarebidoki Search Engine")
+root.title("Amy's Search Engine")
 root.geometry("600x400")
 
 label = tk.Label(root, text="Enter a topic or keyword to search:")
@@ -105,7 +105,7 @@ search_button.pack(pady=10)
 results_text = scrolledtext.ScrolledText(root, width=70, height=15)
 results_text.pack(pady=5)
 
-welcome_message = "Hello! Welcome to Ameneh Zarebidoki Search Engine! We provide search capabilities across Wikipedia, Google Scholar, arXiv, and PubMed. Let’s have fun exploring your articles! If you want to improve this, feel free to check GitHub."
+welcome_message = "Hello! Welcome to Amy's Search Engine! We provide search capabilities across Wikipedia, Google Scholar, arXiv, and PubMed. Let’s have fun exploring your articles! If you want to improve this, feel free to check GitHub."
 results_text.insert(tk.END, welcome_message)  # Insert welcome message at start
 
 root.mainloop()
