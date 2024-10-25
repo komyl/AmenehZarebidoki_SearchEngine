@@ -38,12 +38,9 @@ To run the search engine, use the following command in your terminal:
 python search_engine.py
 ```
 
-
 ## Project Structure
 
-The project structure for the Amy's Search Engine is as follows: 
-
-## Project Structure
+The project structure for the Amy's Search Engine is as follows:  
 
 - **search_engine.py**: Main Python file containing all scraping functions.
 - **requirements.txt**: File containing the required libraries to run the script.
