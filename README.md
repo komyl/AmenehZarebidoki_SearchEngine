@@ -43,6 +43,8 @@ python search_engine.py
 
 The project structure for the Amy's Search Engine is as follows: 
 
+## Project Structure
+
 - **search_engine.py**: Main Python file containing all scraping functions.
 - **requirements.txt**: File containing the required libraries to run the script.
 
@@ -50,6 +52,7 @@ The project structure for the Amy's Search Engine is as follows:
 - **requests**: To handle HTTP requests.
 - **beautifulsoup4**: For parsing HTML content.
 - **tabulate**: For displaying results in a table format.
+- **tkinter**: For creating the graphical user interface.
 
 
 ## License
